@@ -5,54 +5,45 @@
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chemistryx.me/about</loc>
+    <loc>http://localhost:5000/about</loc>
     
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chemistryx.me/blog</loc>
-    
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
+    <lastmod>2024-02-06T19:26:27+09:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://chemistryx.me/</loc>
+    <loc>http://localhost:5000/blog</loc>
     
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chemistryx.me/portfolio</loc>
-    
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
+    <lastmod>2024-02-06T19:26:27+09:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://chemistryx.me/projects</loc>
+    <loc>http://localhost:5000/</loc>
     
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
+    <lastmod>2024-02-06T19:26:27+09:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>https://chemistryx.me/tags</loc>
+    <loc>http://localhost:5000/projects</loc>
     
-    <lastmod>2022-06-30T17:38:14+09:00</lastmod>
+    <lastmod>2024-02-06T19:26:27+09:00</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:5000/tags</loc>
+    
+    <lastmod>2024-02-06T19:26:27+09:00</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -60,7 +51,7 @@
   
   
   <url>
-    <loc>https://chemistryx.me/blog/demo</loc>
+    <loc>http://localhost:5000/blog/demo</loc>
     
     <lastmod>2021-07-11T00:00:00+09:00</lastmod>
     
@@ -70,9 +61,18 @@
   
   
   <url>
-    <loc>https://chemistryx.me/projects/demo</loc>
+    <loc>http://localhost:5000/projects/2020-10-15</loc>
     
-    <lastmod>2021-07-11T00:00:00+09:00</lastmod>
+    <lastmod>2020-10-15T00:00:00+09:00</lastmod>
+    
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:5000/projects/2023-03-21</loc>
+    
+    <lastmod>2023-03-21T00:00:00+09:00</lastmod>
     
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -80,7 +80,7 @@
   
   
   <url>
-    <loc>https://chemistryx.me/tags/demo</loc>
+    <loc>http://localhost:5000/tags/demo</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

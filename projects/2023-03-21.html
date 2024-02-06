@@ -12,9 +12,9 @@
   <meta property="og:type" content="website" />
   <meta
     property="og:title"
-    content="Portfolio |  조계진의 포트폴리오"
+    content="사용자 관리 웹 사이트 개발 |  조계진의 포트폴리오"
   />
-  <meta property="og:description" content='지금까지 작업했던 디자인을 모아놓은 곳입니다.' />
+  <meta property="og:description" content='SpringBoot,React,Mysql 등을 사용한 웹 서비스' />
   <meta property="og:image" content="/assets/images/projects/demo.jpg" /> <!-- Edit this -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" /> <!-- Edit this -->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" /> <!-- Edit this -->
@@ -43,7 +43,7 @@
   <script src="https://kit.fontawesome.com/e9e8beb1d5.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
   <script src="/assets/js/hyde.js"></script>
-  <title>Portfolio |  조계진의 포트폴리오</title>
+  <title>사용자 관리 웹 사이트 개발 |  조계진의 포트폴리오</title>
 </head>
 
   <body>
@@ -58,13 +58,11 @@
             <a class="hyde mobile-nav-item close-btn"><i class="fas fa-times"></i></a>
           </div>
               
-          <a class="hyde mobile-nav-item" href="/about">포트폴리오</a>
+          <a class="hyde mobile-nav-item" href="/about">경력기술서</a>
              
-          <a class="hyde mobile-nav-item" href="/blog">Blog</a>
+          <a class="hyde mobile-nav-item" href="/blog">소개</a>
              
-          <a class="hyde mobile-nav-item active " href="/portfolio">Portfolio</a>
-             
-          <a class="hyde mobile-nav-item" href="/projects">Projects</a>
+          <a class="hyde mobile-nav-item active " href="/projects">프로젝트</a>
              
         </ul>
       </div>
@@ -79,21 +77,23 @@
         </li>
             
         <li class="hyde nav-item">
-          <a href="/about">포트폴리오</a>
+          <a href="/about">경력기술서</a>
         </li>
+        
            
         <li class="hyde nav-item">
-          <a href="/blog">Blog</a>
+          <a href="/blog">소개</a>
         </li>
+        
            
         <li class="hyde nav-item active ">
-          <a href="/portfolio">Portfolio</a>
+          <a href="/projects">프로젝트</a>
         </li>
+        
            
         <li class="hyde nav-item">
-          <a href="/projects">Projects</a>
+            <a href="https://gyejindev.github.io">기술블로그</a>
         </li>
-           
       </ul>
     </div>
   </nav>
@@ -102,34 +102,74 @@
     <section class="hyde main">
        <div class="hyde jumbotron">
   <div class="hyde container">
-    <h1>Portfolio</h1>
+    <h1>사용자 관리 웹 사이트 개발</h1>
     
-    <h2>지금까지 작업했던 디자인을 모아놓은 곳입니다.</h2>
+    <h2>SpringBoot,React,Mysql 등을 사용한 웹 서비스</h2>
+    
+    <div class="hyde post-desc reverse">
+      <a class="hyde post-back" href="/projects"><i class="fas fa-chevron-left"></i> 목록으로 돌아가기</a>
+    </div>
      
   </div>
 </div>
 
       <div class="hyde container">
-        
-<div class="hyde portfolio row">
-   
-  <div class="hyde portfolio-item-wrapper col-lg-4 col-md-6 col-sm-12">
-    <div class="hyde portfolio-item">
-      <a href="#demo">
-        <div class="hyde thumbnail" style="background-image: url('/assets/images/portfolio/demo.png');"></div>
-        <div class="hyde portfolio-overlay">
-          <h3>포트폴리오 데모</h3>
-          <span>포트폴리오 데모 아이템입니다.</span>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div id="demo" class="hyde lightbox" onclick="history.back()">
-    <img src="/assets/images/portfolio/demo.png" alt="demo" onclick="event.stopPropagation()" />
-  </div>
+        <div class="hyde content">
   
+  <img src="/assets/images/projects/gpms_01.PNG" alt="gpms_01" />
+    <div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">프로젝트명 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">재택사용자 관리 웹 사이트</p>
+        <!-- <p class="hyde career-duration">2022-02-30 - 2022-10-31</p> -->
+      </div>
+    </div>
+</div>
+<div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">개발기간 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">2022-02-30 - 2023-11-31</p>
+      </div>
+    </div>
+</div>
+<div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">개발환경 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">VPN, SpringBoot, DebianOS, Java, Mariadb, PaceMaker, React</p>
+      </div>
+    </div>
+</div>
+<div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">요약 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">정부 과제 사업으로 공공기관내의 사용자PC들을 재택에서도<br />업무환경과 동일하게 사용할 수 있도록
+        휴대용 노트북을 특정 서버에 등록하여<br /> 선행인증 VPN을 통한 재택 업무환경을 제공할 수 있는 사이트 개발 프로젝트입니다<br />
+        사용자들의 접속현황을 알 수 있고 사용자PC의 보안상태도 확인이 가능합니다</p>
+      </div>
+    </div>
+</div>
+<div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">기능 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">(1)tcp<br />(2)네트워크</p>
+      </div>
+    </div>
+</div>
+<div class="hyde career-wrapper">
+    <div class="hyde career divider">
+      <div class="hyde career-place">맡은역할 </div>
+      <div class="hyde career-desc">
+        <p class="hyde career-role">(1) 서버와 PC간의 통신 모듈 개발<br />(2) 서버 API 개발<br />(3) 프로세스 감시 Agent 개발</p>
+      </div>
+    </div>
 </div>
 
+</div>
 
       </div>
       
@@ -141,33 +181,32 @@
         <ul class="hyde footer-menu links">
               
           <li>
-            <a href="/about">포트폴리오</a>
+            <a href="/about">경력기술서</a>
           </li>
             
           <li>
-            <a href="/blog">Blog</a>
+            <a href="/blog">소개</a>
           </li>
             
           <li>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-            
-          <li>
-            <a href="/projects">Projects</a>
+            <a href="/projects">프로젝트</a>
           </li>
              
+          <li>
+            <a href="https://gyejindev.github.io">기술블로그</a>
+          </li>
         </ul>
-        <p class="text">&copy; 2022 조계진의 포트폴리오</p>
+        <p class="text">&copy; 2024 조계진의 포트폴리오</p>
       </div>
       <div class="hyde footer-right">
-        <ul class="hyde footer-menu social">
+        <!-- <ul class="hyde footer-menu social">
           <li>
             <a href="https://github.com/nodemonkr"><i class="fab fa-github"></i></a>
           </li>
           <li>
             <a href="mailto:nodemonkr@gmail.com"><i class="fas fa-envelope"></i></a>
           </li>
-        </ul>
+        </ul> -->
         <!-- DO NOT CHANGE THIS :: 수정하지 마세요 -->
         <p class="text">
           <!--
